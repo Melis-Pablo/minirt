@@ -1,0 +1,14 @@
+# Camera positioned at (0, 2, 5) looking towards (0, 0, -1) with a 50-degree field of view
+C 		0,2,5 		0,0,-1 		50
+# Red sphere at (0, 0, -1) with radius 2
+sp		0,0,-1 		2 		255,0,0
+# Green sphere at (-2, 0, -4) with radius 2
+sp		-2,0,-4		2 		0,255,0
+# Blue sphere at (2, 0, -4) with radius 2
+sp		 2,0,-4 	2 		0,0,255
+# Grey plane at (0, -2, 0) with normal (0, 1, 0)
+pl	0,-2,0 		0,1,0 		127,127,127
+# Light source at (0, 5, 0) with intensity 1 and white color
+L	 0,5,0 	1 	255,255,255
+
+A 0.2 255,255,255

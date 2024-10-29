@@ -1,0 +1,45 @@
+# Camera positioned at (0, 4, 10) looking towards (0, 0, -1) with a 75-degree field of view
+C 		0,4,10 		0,0,-1 		75
+# Red sphere at (0, 0, -5) with radius 1
+sp		0,0,-5 		1 		255,0,0
+# Green sphere at (-3, 1, -7) with radius 1.5
+sp		-3,1,-7		1.5 		0,255,0
+# Blue sphere at (3, -1, -7) with radius 1.5
+sp		 3,-1,-7 	1.5 		0,0,255
+# Yellow sphere at (0, 3, -10) with radius 2
+sp		0,3,-10 	2 		255,255,0
+# Grey plane at (0, -2, 0) with normal (0, 1, 0)
+pl	0,-2,0 		0,1,0 		127,127,127
+# White plane at (0, 0, -15) with normal (0, 0, 1)
+pl	0,0,-15 	0,0,1 		255,255,255
+# Cylinder at (2, 0, -12) with axis (0, 1, 0), radius 1, height 4, and color (255, 0, 255)
+cy 	2,0,-12	0,1,0 	1 	4	 255,0,255
+# Cylinder at (-2, 0, -12) with axis (0, 1, 0), radius 1, height 4, and color (0, 255, 255)
+cy 	-2,0,-12	0,1,0 	1 	4	 0,255,255
+# Light source at (0, 10, 0) with intensity 1 and white color
+L	 0,10,0 	1 	255,255,255
+# Light source at (5, 5, -5) with intensity 0.5 and yellow color
+L	 5,5,-5 	0.5 	255,255,0
+# Light source at (-5, 5, -5) with intensity 0.5 and blue color
+L	 -5,5,-5 	0.5 	0,0,255
+# Light source at (0, 5, -10) with intensity 0.7 and red color
+L	 0,5,-10 	0.7 	255,0,0
+# Light source at (0, 15, -5) with intensity 0.3 and green color
+L	 0,15,-5 	0.3 	0,255,0
+# Light source at (10, 10, -10) with intensity 0.4 and purple color
+L	 10,10,-10 	0.4 	128,0,128
+# Light source at (-10, 10, -10) with intensity 0.4 and orange color
+L	 -10,10,-10 	0.4 	255,165,0
+# Light source at (0, 20, -15) with intensity 0.6 and cyan color
+L	 0,20,-15 	0.6 	0,255,255
+# Additional objects for complexity
+# Orange sphere at (1, 2, -6) with radius 0.8
+sp		1,2,-6 		0.8 		255,165,0
+# Purple sphere at (-1, -1, -8) with radius 1.2
+sp		-1,-1,-8 	1.2 		128,0,128
+# Cyan cylinder at (4, 0, -10) with axis (1, 0, 0), radius 0.5, height 3, and color (0, 255, 255)
+cy 	4,0,-10	1,0,0 	0.5 	3	 0,255,255
+# Magenta cylinder at (-4, 0, -10) with axis (0, 1, 1), radius 0.7, height 2, and color (255, 0, 255)
+cy 	-4,0,-10	0,1,1 	0.7 	2	 255,0,255
+
+A 0.2 255,255,255
